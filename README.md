@@ -8,8 +8,6 @@ Open evaluation harness for **filesystem-based agent memory** (management + sear
 
 **Not a general desktop assistant.** Continuous mode is an experiment arm (policy-gated lab, STATUS/INBOX, weighted pathways) used to decide whether that direction is worth pursuing.
 
-**Repo:** [mvdeangelis0/filemem-bench](https://github.com/mvdeangelis0/filemem-bench) (public). Package / CLIs: `agent-memory-bench`, `amb`, `ambc`. License: [MIT](LICENSE).
-
 ## Scope
 
 | Piece | What’s here today |
