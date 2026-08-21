@@ -26,7 +26,7 @@ Larger / multi-world suites are not shipped yet; claims below are on `suites/cor
 
 ## Why FS memory? (qualitative case, not a leaderboard)
 
-The useful story is **update-sensitive retrieval**, not a big aggregate delta.
+The useful story is **update-sensitive retrieval**
 
 Shared query `q_drink_current`: *What does Morgan prefer to drink?* Gold: **coffee** (later chunk). Early evidence said **tea**.
 
