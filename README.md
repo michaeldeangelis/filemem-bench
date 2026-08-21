@@ -37,7 +37,7 @@ Shared query `q_drink_current`: *What does Morgan prefer to drink?* Gold: **coff
 
 Reproduce: [`docs/guides/repro-drink-query.md`](docs/guides/repro-drink-query.md) · figures: [`docs/visuals/`](docs/visuals/README.md).
 
-On one Haiku `suites/core` bakeoff, that failure mode shows up as a **2-point** gap on a 109-check card (108/109 FS vs 106/109 RAG). Treat the totals as run context, not the claim — the claim is the tea→coffee miss class.
+On one Haiku `suites/core` bakeoff, that failure mode shows up as a **2-point** gap on a 109-check card (108/109 FS vs 106/109 RAG). Treat the totals as run context, the claim is the tea→coffee miss class.
 
 | Arm (Haiku / `suites/core`, illustrative) | Card | `q_drink_current` |
 |-------------------------------------------|------|-------------------|
