@@ -12,3 +12,10 @@ continuous_runs/
 .ambc_settings.json
 .superpowers/
 .DS_Store
+
+.venv/
+venv/
+src/.venv/
+__pycache__/
+*.pyc
+.env
