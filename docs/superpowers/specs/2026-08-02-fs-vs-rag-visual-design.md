@@ -5,7 +5,7 @@
 | **Status** | Approved |
 | **Date** | 2026-08-02 |
 | **Approved** | 2026-08-02 |
-| **Project** | `agent_memory_bench` / [filemem-bench](https://github.com/mvdeangelis0/filemem-bench) |
+| **Project** | `agent_memory_bench` / [filemem-bench](https://github.com/michaeldeangelis/filemem-bench) |
 | **Audience** | Repo visitors (README + GitHub Pages) |
 
 ---

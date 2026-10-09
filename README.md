@@ -1,6 +1,6 @@
 # filemem-bench (`agent_memory_bench`)
 
-[![CI](https://github.com/mvdeangelis0/filemem-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/mvdeangelis0/filemem-bench/actions/workflows/ci.yml)
+[![CI](https://github.com/michaeldeangelis/filemem-bench/actions/workflows/ci.yml/badge.svg)](https://github.com/michaeldeangelis/filemem-bench/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 
@@ -15,7 +15,7 @@ Open evaluation harness for **filesystem-based agent memory** (management + sear
 | Suites | `smoke` (10 stream chunks, 9 gold queries, 19 scorecard checks) ⊂ `core` (24 chunks, 18 queries, 59 checks) — same `morgan_personal_v1` world |
 | Harness | Manage → dual stores (`organized/` + `verbatim/chunks/` + bookkeeper) → search → grade(ledger) |
 | CI | GitHub Actions: pytest on 3.11/3.12, suite validate, mock `smoke` run |
-| Tests | 80 unit tests under `tests/` (~69% line coverage on `src/amb` as of 2026-08-03; not a CI gate) |
+| Tests | 100 unit tests under `tests/`, run in CI on Python 3.11 and 3.12 (~69% line coverage on `src/amb` as of 2026-08-03; coverage is not a CI gate) |
 | Continuous | `ambc` lab loop (separate from suite bakeoffs) |
 
 Larger / multi-world suites are not shipped yet; claims below are on `suites/core` only.
@@ -51,7 +51,7 @@ Desktop (RTX 3070 + Ollama): [`docs/guides/desktop-rtx3070.md`](docs/guides/desk
 ## Quick start
 
 ```bash
-git clone https://github.com/mvdeangelis0/filemem-bench.git
+git clone https://github.com/michaeldeangelis/filemem-bench.git
 cd filemem-bench
 python3.12 -m venv .venv   # needs Python >=3.11
 source .venv/bin/activate  # Windows: .venv\Scripts\activate

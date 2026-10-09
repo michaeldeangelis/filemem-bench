@@ -1,6 +1,6 @@
 # Visuals
 
-Static research figures for the [filemem-bench](https://github.com/mvdeangelis0/filemem-bench) README (figure-first hybrid).
+Static research figures for the [filemem-bench](https://github.com/michaeldeangelis/filemem-bench) README (figure-first hybrid).
 
 | Asset | Role |
 |-------|------|
